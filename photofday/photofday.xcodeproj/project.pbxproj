@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12FA3C17447428A46ADE19E3 /* Pods_photofdayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA7BB4CAB3CD30BE1655A82 /* Pods_photofdayTests.framework */; };
 		3502506A29B0DAFF00AC20D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502506929B0DAFF00AC20D1 /* AppDelegate.swift */; };
 		3502506C29B0DAFF00AC20D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502506B29B0DAFF00AC20D1 /* SceneDelegate.swift */; };
 		3502506E29B0DAFF00AC20D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502506D29B0DAFF00AC20D1 /* ViewController.swift */; };
@@ -16,6 +17,13 @@
 		3502508129B0DB0000AC20D1 /* photofdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502508029B0DB0000AC20D1 /* photofdayTests.swift */; };
 		3502508B29B0DB0000AC20D1 /* photofdayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502508A29B0DB0000AC20D1 /* photofdayUITests.swift */; };
 		3502508D29B0DB0000AC20D1 /* photofdayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502508C29B0DB0000AC20D1 /* photofdayUITestsLaunchTests.swift */; };
+		3502509A29B0E12400AC20D1 /* PhotoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3502509929B0E12400AC20D1 /* PhotoView.xib */; };
+		3502509C29B0E18100AC20D1 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502509B29B0E18100AC20D1 /* PhotoView.swift */; };
+		3502509E29B0E39600AC20D1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502509D29B0E39600AC20D1 /* ViewModel.swift */; };
+		350250A429B0EAF100AC20D1 /* PhotoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350250A329B0EAF100AC20D1 /* PhotoDetails.swift */; };
+		352C369E29B21D1C00631A4A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352C369D29B21D1C00631A4A /* BaseViewController.swift */; };
+		C3F2BABFCD1870E5E3515FB0 /* Pods_photofday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2603A919EA5C6D0BC26A7AC7 /* Pods_photofday.framework */; };
+		E87198A0F77CEAB73DA35476 /* Pods_photofday_photofdayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04F6DE9F2362258A7A078A2 /* Pods_photofday_photofdayUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2603A919EA5C6D0BC26A7AC7 /* Pods_photofday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photofday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3502506629B0DAFF00AC20D1 /* photofday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photofday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3502506929B0DAFF00AC20D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3502506B29B0DAFF00AC20D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,22 @@
 		3502508629B0DB0000AC20D1 /* photofdayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photofdayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3502508A29B0DB0000AC20D1 /* photofdayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photofdayUITests.swift; sourceTree = "<group>"; };
 		3502508C29B0DB0000AC20D1 /* photofdayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photofdayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3502509929B0E12400AC20D1 /* PhotoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoView.xib; sourceTree = "<group>"; };
+		3502509B29B0E18100AC20D1 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		3502509D29B0E39600AC20D1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		350250A329B0EAF100AC20D1 /* PhotoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetails.swift; sourceTree = "<group>"; };
+		35136F6629B1DFA100680DAF /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		352C369D29B21D1C00631A4A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		363773AD624F8038F9F27517 /* Pods-photofdayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photofdayTests.release.xcconfig"; path = "Target Support Files/Pods-photofdayTests/Pods-photofdayTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FC9F0C979AFAEC434FB6DD8 /* Pods-photofday-photofdayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photofday-photofdayUITests.debug.xcconfig"; path = "Target Support Files/Pods-photofday-photofdayUITests/Pods-photofday-photofdayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41760C0AFD806E451A57CBC7 /* Pods-photofday-photofdayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photofday-photofdayTests.debug.xcconfig"; path = "Target Support Files/Pods-photofday-photofdayTests/Pods-photofday-photofdayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B0002A4E34F92C4A51E45E7 /* Pods-photofday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photofday.debug.xcconfig"; path = "Target Support Files/Pods-photofday/Pods-photofday.debug.xcconfig"; sourceTree = "<group>"; };
+		6CA7BB4CAB3CD30BE1655A82 /* Pods_photofdayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photofdayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24A965CFD73806417AD84DD /* Pods-photofday-photofdayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photofday-photofdayTests.release.xcconfig"; path = "Target Support Files/Pods-photofday-photofdayTests/Pods-photofday-photofdayTests.release.xcconfig"; sourceTree = "<group>"; };
+		B826E0B2EDF7D84073F5BBA9 /* Pods-photofday-photofdayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photofday-photofdayUITests.release.xcconfig"; path = "Target Support Files/Pods-photofday-photofdayUITests/Pods-photofday-photofdayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C04F6DE9F2362258A7A078A2 /* Pods_photofday_photofdayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photofday_photofdayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB38772C2B8CF19B2E830A1 /* Pods-photofdayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photofdayTests.debug.xcconfig"; path = "Target Support Files/Pods-photofdayTests/Pods-photofdayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1839839FDB3F905C70A6288 /* Pods-photofday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photofday.release.xcconfig"; path = "Target Support Files/Pods-photofday/Pods-photofday.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F2BABFCD1870E5E3515FB0 /* Pods_photofday.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FA3C17447428A46ADE19E3 /* Pods_photofdayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87198A0F77CEAB73DA35476 /* Pods_photofday_photofdayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +111,8 @@
 				3502507F29B0DB0000AC20D1 /* photofdayTests */,
 				3502508929B0DB0000AC20D1 /* photofdayUITests */,
 				3502506729B0DAFF00AC20D1 /* Products */,
+				B60889B9B9A6E21DEEC95542 /* Pods */,
+				7DE794F5FDED06124F13D986 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +129,12 @@
 		3502506829B0DAFF00AC20D1 /* photofday */ = {
 			isa = PBXGroup;
 			children = (
+				350250A229B0EAD700AC20D1 /* Model */,
+				350250A029B0E3A800AC20D1 /* View */,
+				3502509F29B0E39C00AC20D1 /* ViewModel */,
+				350250A129B0E3B400AC20D1 /* Controller */,
 				3502506929B0DAFF00AC20D1 /* AppDelegate.swift */,
 				3502506B29B0DAFF00AC20D1 /* SceneDelegate.swift */,
-				3502506D29B0DAFF00AC20D1 /* ViewController.swift */,
 				3502506F29B0DAFF00AC20D1 /* Main.storyboard */,
 				3502507229B0DB0000AC20D1 /* Assets.xcassets */,
 				3502507429B0DB0000AC20D1 /* LaunchScreen.storyboard */,
@@ -127,6 +160,66 @@
 			path = photofdayUITests;
 			sourceTree = "<group>";
 		};
+		3502509F29B0E39C00AC20D1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3502509D29B0E39600AC20D1 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		350250A029B0E3A800AC20D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3502509B29B0E18100AC20D1 /* PhotoView.swift */,
+				3502509929B0E12400AC20D1 /* PhotoView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		350250A129B0E3B400AC20D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3502506D29B0DAFF00AC20D1 /* ViewController.swift */,
+				352C369D29B21D1C00631A4A /* BaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		350250A229B0EAD700AC20D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				350250A329B0EAF100AC20D1 /* PhotoDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DE794F5FDED06124F13D986 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35136F6629B1DFA100680DAF /* Reachability.framework */,
+				2603A919EA5C6D0BC26A7AC7 /* Pods_photofday.framework */,
+				C04F6DE9F2362258A7A078A2 /* Pods_photofday_photofdayUITests.framework */,
+				6CA7BB4CAB3CD30BE1655A82 /* Pods_photofdayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B60889B9B9A6E21DEEC95542 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B0002A4E34F92C4A51E45E7 /* Pods-photofday.debug.xcconfig */,
+				F1839839FDB3F905C70A6288 /* Pods-photofday.release.xcconfig */,
+				41760C0AFD806E451A57CBC7 /* Pods-photofday-photofdayTests.debug.xcconfig */,
+				B24A965CFD73806417AD84DD /* Pods-photofday-photofdayTests.release.xcconfig */,
+				3FC9F0C979AFAEC434FB6DD8 /* Pods-photofday-photofdayUITests.debug.xcconfig */,
+				B826E0B2EDF7D84073F5BBA9 /* Pods-photofday-photofdayUITests.release.xcconfig */,
+				DCB38772C2B8CF19B2E830A1 /* Pods-photofdayTests.debug.xcconfig */,
+				363773AD624F8038F9F27517 /* Pods-photofdayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3502509029B0DB0000AC20D1 /* Build configuration list for PBXNativeTarget "photofday" */;
 			buildPhases = (
+				0CA5BB9ADEEBF46E3D3B9C29 /* [CP] Check Pods Manifest.lock */,
 				3502506229B0DAFF00AC20D1 /* Sources */,
 				3502506329B0DAFF00AC20D1 /* Frameworks */,
 				3502506429B0DAFF00AC20D1 /* Resources */,
+				F6CA20CFA8F245CCB81C31AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3502509329B0DB0000AC20D1 /* Build configuration list for PBXNativeTarget "photofdayTests" */;
 			buildPhases = (
+				1C18FB9F76631A72AE813129 /* [CP] Check Pods Manifest.lock */,
 				3502507829B0DB0000AC20D1 /* Sources */,
 				3502507929B0DB0000AC20D1 /* Frameworks */,
 				3502507A29B0DB0000AC20D1 /* Resources */,
+				19CE01EA1E311EE0B073CE3F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3502509629B0DB0000AC20D1 /* Build configuration list for PBXNativeTarget "photofdayUITests" */;
 			buildPhases = (
+				76875C407018E0CC5F319F6B /* [CP] Check Pods Manifest.lock */,
 				3502508229B0DB0000AC20D1 /* Sources */,
 				3502508329B0DB0000AC20D1 /* Frameworks */,
 				3502508429B0DB0000AC20D1 /* Resources */,
+				A1AD238420C37F3B16F83E64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +333,7 @@
 				3502507629B0DB0000AC20D1 /* LaunchScreen.storyboard in Resources */,
 				3502507329B0DB0000AC20D1 /* Assets.xcassets in Resources */,
 				3502507129B0DAFF00AC20D1 /* Main.storyboard in Resources */,
+				3502509A29B0E12400AC20D1 /* PhotoView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +353,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CA5BB9ADEEBF46E3D3B9C29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-photofday-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19CE01EA1E311EE0B073CE3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-photofdayTests/Pods-photofdayTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-photofdayTests/Pods-photofdayTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-photofdayTests/Pods-photofdayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C18FB9F76631A72AE813129 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-photofdayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76875C407018E0CC5F319F6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-photofday-photofdayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1AD238420C37F3B16F83E64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-photofday-photofdayUITests/Pods-photofday-photofdayUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-photofday-photofdayUITests/Pods-photofday-photofdayUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-photofday-photofdayUITests/Pods-photofday-photofdayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6CA20CFA8F245CCB81C31AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-photofday/Pods-photofday-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-photofday/Pods-photofday-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-photofday/Pods-photofday-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3502506229B0DAFF00AC20D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3502509E29B0E39600AC20D1 /* ViewModel.swift in Sources */,
+				350250A429B0EAF100AC20D1 /* PhotoDetails.swift in Sources */,
 				3502506E29B0DAFF00AC20D1 /* ViewController.swift in Sources */,
 				3502506A29B0DAFF00AC20D1 /* AppDelegate.swift in Sources */,
 				3502506C29B0DAFF00AC20D1 /* SceneDelegate.swift in Sources */,
+				352C369E29B21D1C00631A4A /* BaseViewController.swift in Sources */,
+				3502509C29B0E18100AC20D1 /* PhotoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +656,17 @@
 		};
 		3502509129B0DB0000AC20D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0002A4E34F92C4A51E45E7 /* Pods-photofday.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = photofday/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,26 +674,34 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0;
+				PODS_XCFRAMEWORKS_BUILD_DIR = "$(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates; $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.walmart.photo.ofday.photofday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		3502509229B0DB0000AC20D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1839839FDB3F905C70A6288 /* Pods-photofday.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = photofday/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,21 +709,24 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0;
+				PODS_XCFRAMEWORKS_BUILD_DIR = "$(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates; $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.walmart.photo.ofday.photofday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		3502509429B0DB0000AC20D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB38772C2B8CF19B2E830A1 /* Pods-photofdayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +746,7 @@
 		};
 		3502509529B0DB0000AC20D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 363773AD624F8038F9F27517 /* Pods-photofdayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +766,7 @@
 		};
 		3502509729B0DB0000AC20D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC9F0C979AFAEC434FB6DD8 /* Pods-photofday-photofdayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +784,7 @@
 		};
 		3502509829B0DB0000AC20D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B826E0B2EDF7D84073F5BBA9 /* Pods-photofday-photofdayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

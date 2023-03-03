@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'photofday' do
+  inherit! :search_paths
+  use_frameworks!
+  pod 'ReachabilitySwift'
+  pod 'SDWebImage'
+  # Pods for photofday
+
+  target 'photofdayTests' do
+    inherit! :search_paths
+    use_frameworks!
+    pod 'ReachabilitySwift'
+    pod 'SDWebImage'
+  end
+
+  target 'photofdayUITests' do
+    pod 'ReachabilitySwift'
+    pod 'SDWebImage'
+  end
+
+end

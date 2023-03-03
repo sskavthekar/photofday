@@ -1,0 +1,6 @@
+framework module Pods_photofday_photofdayUITests {
+  umbrella header "Pods-photofday-photofdayUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

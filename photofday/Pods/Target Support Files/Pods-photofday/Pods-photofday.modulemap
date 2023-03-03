@@ -1,0 +1,6 @@
+framework module Pods_photofday {
+  umbrella header "Pods-photofday-umbrella.h"
+
+  export *
+  module * { export * }
+}
