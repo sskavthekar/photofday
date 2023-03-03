@@ -56,13 +56,12 @@ class ViewModel {
     }
     
     func fetchData() {
-        if reachability?.connection == .unavailable {
-            print("internet unavailable")
+        guard
+            reachabiliinternet availablety?.connection == .unavailable
+        else {
             fetchLastText()
-            fetchLastImage()
             return
         }
-        print("internet available")
         var request = URLRequest(url: URL(string: Constants.url)!,timeoutInterval: Double.infinity)
         request.addValue(Constants.apikey, forHTTPHeaderField: Constants.apiHeaderKey)
         
