@@ -57,7 +57,7 @@ class ViewModel {
     
     func fetchData() {
         guard
-            reachability?.connection == .unavailable
+            reachability?.connection != .unavailable
         else {
             fetchLastText()
             return
